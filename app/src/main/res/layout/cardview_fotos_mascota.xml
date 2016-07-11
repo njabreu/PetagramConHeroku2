@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascotaFotos"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_margin="15dp"
+    card_view:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgFotoMascota"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/perrita_1"/>
+
+        <RelativeLayout
+            android:background="@drawable/linear_layout_border"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvTotalLikePerfil"
+                android:text="25"
+                android:textSize="@dimen/cardview_text_size"
+                android:layout_gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_right_5dp"
+                android:textAlignment="viewEnd" />
+
+                <ImageView
+                    android:id="@+id/imgTotalLikesPerfil"
+                    android:layout_toRightOf="@id/tvTotalLikePerfil"
+                    android:src="@drawable/hueso_total"
+                    android:layout_width="@dimen/cardview_image_total_width"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="@dimen/margin_right_5dp" />
+       </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

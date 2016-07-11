@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "499618852531",
+    "firebase_url": "https://petagramtarea.firebaseio.com",
+    "project_id": "petagramtarea",
+    "storage_bucket": "petagramtarea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499618852531:android:665746da80afcf0b",
+        "android_client_info": {
+          "package_name": "com.example.nelson.petagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499618852531-3703ghkbgbfhkv4gchk5n7lemd474iqf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nelson.petagram",
+            "certificate_hash": "DAB062F3B96AD8AADF48C72CA9AEA5F76229022C"
+          }
+        },
+        {
+          "client_id": "499618852531-3b0tgcjj5hf7tmgfegv71r0kni9gr3gp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAGc_tDJaUN_eJxXNcBl8e0n_sxoCPEl4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499618852531-3b0tgcjj5hf7tmgfegv71r0kni9gr3gp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

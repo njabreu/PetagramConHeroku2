@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mContacto"
+        android:title="@string/menu_item_contacto"
+        android:orderInCategory="100">
+
+    </item>
+    <item
+        android:id="@+id/mAcercaDe"
+        android:title="@string/menu_item_acercade"
+        android:orderInCategory="101">
+    </item>
+
+    <item
+        android:id="@+id/mConfigurarCuenta"
+        android:title="@string/menu_item_configurar_cuenta"
+        android:orderInCategory="102">
+    </item>
+
+    <item
+        android:id="@+id/mRecibirNotificaciones"
+        android:title="@string/menu_item_recibir_notificaciones"
+        android:orderInCategory="102">
+    </item>
+
+    <item
+        android:id="@+id/menu_action_top5"
+        android:icon="@drawable/top5"
+        android:title="Probando"
+        app:showAsAction="ifRoom|withText" />
+
+
+
+</menu>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="menu_item_contacto">Contacto</string>
+    <string name="menu_item_acercade">Acerca de</string>
+    <string name="texto_boton_enviar">Enviar</string>
+    <string name="texto_nombre_autor">Nelson Abreu</string>
+    <string name="titulo_formulario_contacto">Formulario de Contacto</string>
+    <string name="titulo_configurar_cuenta">Petagram</string>
+    <string name="boton_configurar_cuenta_guardar">Guardar Cuenta</string>
+
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_mensaje">Mensaje</string>
+    <string name="hint_usuario_configurar_cuenta">Escribe tu usuario</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu_item_configurar_cuenta">Configurar Cuenta</string>
+    <string name="menu_item_recibir_notificaciones">Recibir Notificaciones</string>
+</resources>

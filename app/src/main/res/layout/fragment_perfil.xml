@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.nelson.petagram.fragment.PerfilFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/imgPerfil"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:src="@drawable/perrita_1"
+            android:layout_gravity="center"
+            app:civ_border_color="#EEEEEE"
+            app:civ_border_width="1dp"
+            app:civ_shadow="true"
+            app:civ_shadow_radius="10"
+            app:civ_shadow_color="#8BC34A"/>
+
+        <!--<ImageView
+            android:id="@+id/imgPerfil"
+            android:src="@drawable/perrita_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />-->
+
+        <TextView
+            android:id="@+id/tvNombreMascotaPerfil"
+            android:text="Nelson Abreu Ventura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center|center_horizontal"
+            android:textAlignment="gravity" />
+
+        <TextView
+            android:id="@+id/tvUsernamePerfil"
+            android:text="N.A."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center|center_horizontal"
+            android:textAlignment="gravity" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvPerfilMascotaList"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+</FrameLayout>

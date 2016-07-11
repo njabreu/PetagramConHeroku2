@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="floating_button_elevation">6dp</dimen>
+    <dimen name="floating_button_margin">16dp</dimen>
+    <dimen name="action_bar_width">50dp</dimen>
+    <dimen name="action_bar_height">50dp</dimen>
+
+    <dimen name="cardview_height">350dp</dimen>
+    <dimen name="cardview_margin">20dp</dimen>
+
+    <dimen name="cardview_foto_height">305dp</dimen>
+    <dimen name="cardview_corner_radius">5dp</dimen>
+
+    <dimen name="cardview_like_width">32dp</dimen>
+    <dimen name="cardview_like_height">32dp</dimen>
+
+    <dimen name="cardview_image_total_width">32dp</dimen>
+
+    <dimen name="cardview_text_size">20dp</dimen>
+
+    <dimen name="cardview_textLikesCount_width">100dp</dimen>
+    <dimen name="cardview_textNombre_width">130dp</dimen>
+
+    <dimen name="margin_left_5dp">5dp</dimen>
+    <dimen name="margin_right_5dp">5dp</dimen>
+
+    <dimen name="tamano_titulo_contactos">30dp</dimen>
+    <dimen name="cantidad_lineas_mensaje_contacto">10dp</dimen>
+</resources>

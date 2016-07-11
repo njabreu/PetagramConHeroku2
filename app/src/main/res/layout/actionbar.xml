@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/miActionBar"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:theme="@style/ThemeOverlay.AppCompat.Light"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <!--<ImageButton
+        android:id="@+id/btnTop5"
+        android:src="@drawable/top5"
+        android:layout_marginLeft="100dp"
+        android:clickable="true"
+        android:background="@color/colorPrimary"
+        android:layout_width="@dimen/action_bar_width"
+        android:layout_height="@dimen/action_bar_height"
+        android:layout_gravity="center_vertical"
+        android:focusable="true"
+        style="?android:borderlessButtonStyle"
+        android:focusableInTouchMode="true" />
+-->
+
+</android.support.v7.widget.Toolbar>
